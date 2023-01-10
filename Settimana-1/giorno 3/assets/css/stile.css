@@ -1,0 +1,167 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.7rem;
+}
+
+/* HEADER */
+
+header {
+    background-color: #01A0C6;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.5rem;
+    padding: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+span {
+    background-color: #FFFFFF;
+    color: #01A0C6;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+header ~ hr {
+    margin: 0;
+    border: 3px solid #017794;
+}
+
+/* MAIN */
+
+main h2 {
+    color: #017794;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+figure {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+figure img {
+    border: 1px solid #01A0C6;
+    padding: 1rem;
+}
+
+address {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+b {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+a:link {
+    color: red;
+}
+
+address ~ p {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+blockquote {
+    border-radius: 25px;
+    background-color: #E3E3E3;
+    margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+div p {
+    padding-left: 1rem;
+}
+
+strong {
+    color: #01A0C6;
+}
+
+p, dl, ul {
+    font-size: 1.45rem;
+    line-height: 2.5rem;
+}
+
+section ~ hr {
+    border-top: 2.5px dashed #01A0C6;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+section div {
+    padding-left: 1rem;
+}
+
+section h3 {
+    padding-left: 1rem;
+    font-size: 1.45rem;
+    font-weight: 600;
+}
+
+mark {
+    background-color: #01A0C6;
+    color: #FFFFFF;
+}
+
+ul {
+    padding-left: 4rem;
+}
+
+dl {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+main ~ hr {
+    border-top: 2.5px dashed #01A0C6;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: none;
+}
+
+/* FOOTER */
+
+footer {
+    font-family: 'Raleway', sans-serif;;
+    text-align: center;
+    color: #DFEAEF;
+    background-color: #353535;
+    margin-top: 3rem;
+    border-top: 4px solid #017794;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+kbd {
+    color: yellow;
+    font-style: italic;
+}

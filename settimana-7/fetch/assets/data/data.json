@@ -1,0 +1,24 @@
+{
+    "elenco": [
+        {
+            "id": 1,
+            "nome": "Gaetano",
+            "cognome": "Quarto"
+        },
+        {
+            "nome": "Laura",
+            "cognome": "Gaudencio",
+            "id": 2
+        },
+        {
+            "nome": "Christian",
+            "cognome": "Mastropietro",
+            "id": 3
+        },
+        {
+            "nome": "Cosimo",
+            "cognome": "Gargiullo",
+            "id": 4
+        }
+    ]
+}

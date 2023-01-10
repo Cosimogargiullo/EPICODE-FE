@@ -1,0 +1,18 @@
+- Creare interface Smartphone che contiene 2 variabili di istanza:
+    1) carica:number = (saldo disponibile per le chiamate)
+    2) numeroChiamate:number = (numero di chiamate effettuate)
+
+- Creare Classe User che:
+    1) Implementi interfaccia Smartphone
+    2) Definisca i metodi:
+        - Public ricarica(ricarica: number): void, che ricarica il telefonino. 
+		- Public chiamata(chiamata: number): void, che effettua una chiamata di durata in minuti specificata dal parametro esplicito.
+			Tale metodo dovra' aggiornare la carica disponibile, ed incrementare la memoria contenente il numero di chiamate effettuate dal telefonino. 
+			Si assuma un costo di 0.20 euro per ogni minuto di chiamata,
+		- Public numero404(): number, che restituisce il valore della carica disponibile. 
+		- Public getNumeroChiamate(): number, che restituisce il valore della variabile d'istanza numeroChiamate. 
+		- Public azzeraChiamate(): void , che azzera la variabile contenente il numero di chiamate effettuate dal telefonino.
+
+- Istanziare FirstUser-SecondUser-ThirdUser dalla classe User
+
+Provare i metodi e verificare il saldo residuo di ogni utente e quante chiamate sono state effettuate.

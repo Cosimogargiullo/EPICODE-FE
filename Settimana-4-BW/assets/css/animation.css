@@ -1,0 +1,48 @@
+.btnAnimation {
+  animation: btnAnimation 2s ease 1;
+}
+
+@keyframes btnAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  70% {
+    transform: scale(.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.reveal {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.due {
+  position: relative;
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.due.active {
+  transform: translateX(0);
+  opacity: 1;
+}
